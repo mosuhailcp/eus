@@ -38,6 +38,27 @@
             <title>GHSS Cheruvadi</title>
 
             <style>
+                        /* Styles for desktop screens */ 
+.some-element { 
+    width: 50%; 
+    float: left; 
+} 
+ 
+/* Styles for tablets */ 
+@media (max-width: 768px) { 
+    .some-element { 
+        width: 100%; 
+        float: none; 
+    } 
+} 
+ 
+/* Styles for mobile phones */ 
+@media (max-width: 480px) { 
+    .some-element { 
+        width: 100%; 
+        float: none; 
+    } 
+} 
                 body {
                      background-image: url('bg6.jpg');
                      background-repeat: no-repeat;
