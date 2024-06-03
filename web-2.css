@@ -76,29 +76,5 @@ body, html
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
 }
-/* Navigation styles */
-nav {
-    background-color: #666;
-    padding: 10px;
-}
 
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Main content styles */
-.main-content {
-    padding: 20px;
-}
 
