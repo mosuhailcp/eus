@@ -1,3 +1,13 @@
+}
+body, html
+.welcome h1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: monospace;
+}
 .container {
     width: 90%; /* Or any other percentage */
     margin: 0 auto; /* Center the container */
@@ -10,16 +20,6 @@
     img, video {
     max-width: 100%;
     height: auto;
-}
-body, html
-.welcome h1 {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    font-family: monospace;
-}
 
 #animation {
     position: fixed;
