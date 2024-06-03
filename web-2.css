@@ -1,4 +1,25 @@
 body, html
+/* Styles for desktop screens */ 
+.some-element { 
+    width: 50%; 
+    float: left; 
+} 
+ 
+/* Styles for tablets */ 
+@media (max-width: 768px) { 
+    .some-element { 
+        width: 100%; 
+        float: none; 
+    } 
+} 
+ 
+/* Styles for mobile phones */ 
+@media (max-width: 480px) { 
+    .some-element { 
+        width: 100%; 
+        float: none; 
+    } 
+} 
 .welcome h1 {
     margin: 0;
     padding: 0;
