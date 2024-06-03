@@ -12,6 +12,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>eus.thacs Photo-galary </title>
     <style>
+        /* Styles for desktop screens */ 
+.some-element { 
+    width: 50%; 
+    float: left; 
+} 
+ 
+/* Styles for tablets */ 
+@media (max-width: 768px) { 
+    .some-element { 
+        width: 100%; 
+        float: none; 
+    } 
+} 
+ 
+/* Styles for mobile phones */ 
+@media (max-width: 480px) { 
+    .some-element { 
+        width: 100%; 
+        float: none; 
+    } 
+} 
         body {
              background-image: url('bg5.jpg');
              background-repeat: no-repeat;
